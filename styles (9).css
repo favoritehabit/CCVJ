@@ -1,0 +1,15 @@
+/*Global Reset - reset margins and paddings to 0 fir cross-browser compatability*/
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*make element border and padding included in its total width and height*/
+}
+
+#canvas1 {
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);/*the four directives to the center of the page*/
+  border: 5px solid #FF9933;
+}
